@@ -1,0 +1,118 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: rgb(242,242,242);
+}
+.nav-2{
+    background-color: rgb(125,128,53);
+}
+nav{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.nav-1{
+    background-color:  rgb(112,116,40);
+    color: white;
+    
+}
+
+.header-left img{
+    height: 80px;
+}
+
+.header-left input{
+    height: 30px;
+    width: 25rem;
+    margin: 5px 10px;
+}
+
+.header-left .search{
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+
+.cart, .account{
+    color: white;
+    text-align: center;
+}
+.ceremony-elements img{
+    width: 20rem;
+    border-radius: 40px;
+}
+.ceremony-elements p{
+    text-align: center;
+}
+
+.pincode{
+    border: 0.06rem solid rgb(178, 178, 178);
+}
+.occasion,.gift_type{
+    border: 0.06rem solid rgb(178, 178, 178);
+    background-color: rgb(242,242,242);
+}
+.finder_elements button{
+    background-color: rgb(125,128,53);
+}
+.finder_elements{
+    background-color: white;
+}
+.anniversary_items .items{
+    padding: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    text-align: center;
+    border-radius: 6px;
+    
+}
+
+.anniversary_items .items .image{
+    display: inline-block;
+    overflow: hidden;
+}
+.anniversary_items .items .image img{
+    display: block;
+    
+    transition: all 0.3s;
+}
+.anniversary_items .items .image img:hover{
+transform: scale(1.1);
+ 
+  
+}
+
+.photo_section .second_element .items{
+    
+    
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.photo_section .second_element .items p{
+    padding: 10px;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+}
+.photo_section .photo_elements .item{
+    padding: 2px;
+    background-color: white;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-radius: 6px;
+}
+.photo_section .photo_elements .item h2{
+    font-weight: 600;
+}
